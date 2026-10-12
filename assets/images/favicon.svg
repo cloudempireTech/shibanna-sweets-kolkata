@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favTerracotta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E27248"/>
+      <stop offset="100%" stop-color="#C85A32"/>
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE38A"/>
+      <stop offset="100%" stop-color="#F4D06F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#2C3539"/>
+  <g transform="translate(0, 2)">
+    <path d="M32 54 C16 54 10 42 12 29 C13 18 22 15 32 15 C42 15 51 18 52 29 C54 42 48 54 32 54 Z" fill="url(#favTerracotta)"/>
+    <ellipse cx="32" cy="17" rx="19" ry="4.5" fill="#A84320"/>
+    <ellipse cx="32" cy="16" rx="16" ry="3.5" fill="url(#favGold)"/>
+    <path d="M32 5 C32 5 24 16 24 20 C24 25 27.5 28 32 28 C36.5 28 40 25 40 20 C40 16 32 5 32 5 Z" fill="url(#favGold)"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" fill="none">
+  <defs>
+    <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E27248"/>
+      <stop offset="100%" stop-color="#C85A32"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE38A"/>
+      <stop offset="100%" stop-color="#F4D06F"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Emblem Icon: Handcrafted Earthen Pot & Sweet Droplet -->
+  <g transform="translate(15, 12)" filter="url(#subtleShadow)">
+    <!-- Outer Shield / Earthen Bowl Base -->
+    <path d="M38 72 C18 72 10 56 12 40 C14 26 26 22 38 22 C50 22 62 26 64 40 C66 56 58 72 38 72 Z" fill="url(#terracottaGrad)"/>
+    <!-- Pot Rim -->
+    <ellipse cx="38" cy="24" rx="24" ry="6" fill="#A84320"/>
+    <ellipse cx="38" cy="23" rx="21" ry="4.5" fill="url(#goldGrad)"/>
+    <!-- Rising Droplet / Flame of Purity -->
+    <path d="M38 8 C38 8 28 22 28 28 C28 34 32.5 38 38 38 C43.5 38 48 34 48 28 C48 22 38 8 38 8 Z" fill="url(#goldGrad)"/>
+    <!-- Saffron Thread Motif inside -->
+    <path d="M38 16 Q41 23 37 30" stroke="#C85A32" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(95, 26)">
+    <!-- English Brand Name -->
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="28" font-weight="700" letter-spacing="1.5" fill="#2C3539">
+      SHIBANNA
+    </text>
+    <text x="172" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="28" font-weight="300" letter-spacing="2" fill="#C85A32">
+      SWEETS
+    </text>
+    <!-- Tagline / Locality Heritage -->
+    <text x="2" y="52" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="#8A9A86">
+      KOLKATA • ESTD. ENTALLY • MISHTI &amp; SAVOURIES
+    </text>
+  </g>
+</svg>
